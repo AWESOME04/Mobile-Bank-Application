@@ -35,6 +35,25 @@ The mobile banking application offers the following features:
    - The application ensures secure communication using encryption protocols (e.g., HTTPS).
    - Appropriate user authentication measures are implemented to prevent unauthorized access.
    - Data is securely stored on the device and server.
+  
+## Screenshots
+
+### SignIn Page
+
+![5](https://github.com/AWESOME04/Mobile-Bank-Application/assets/102630199/0c766163-d389-4934-9d2f-71ce9af96d0e)
+
+### Sign Up Page
+
+![4](https://github.com/AWESOME04/Mobile-Bank-Application/assets/102630199/2d00ff0c-b7ff-4f4f-91b3-396067fdff72)
+
+### Homepage
+
+![2](https://github.com/AWESOME04/Mobile-Bank-Application/assets/102630199/1d476b78-3d92-4865-9d86-19fb8f025b6c)
+
+### Log Out Page
+
+![1](https://github.com/AWESOME04/Mobile-Bank-Application/assets/102630199/3ff1c18c-8b0a-470b-a82e-045f8830e1a4)
+
 
 ## Technologies Used
 
