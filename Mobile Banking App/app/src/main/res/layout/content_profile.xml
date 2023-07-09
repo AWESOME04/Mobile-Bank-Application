@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bank.izbank.MainScreen.MainScreenActivity"
+    tools:showIn="@layout/activity_profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:text="Account Info"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="28sp"
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <RelativeLayout
+                android:id="@+id/account_setting_name_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/nameImageView"
+                    android:layout_width="26dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@drawable/ic_name" />
+
+                <TextView
+                    android:id="@+id/settings_nameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/nameImageView"
+                    android:text="User Name"
+                    android:textColor="@color/blackTextColor"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/settings_userNameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/nameImageView"
+                    android:text="Surname"
+                    android:textColor="@color/blackTextColor"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/settings_change_pass_row"
+
+                style="@style/profileDetailsLayout">
+
+                <ImageView
+                    android:id="@+id/dobImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/ic_dob"
+
+                    />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_toRightOf="@id/dobImageView"
+                    android:text="Change Password"
+
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/profileAccentColor"
+                android:layout_marginTop="5dp"
+
+            />
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/settings_addres_row"
+
+                style="@style/profileDetailsLayout">
+
+                <ImageView
+                    android:id="@+id/addressImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/ic_address"
+
+                    />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_toRightOf="@id/addressImageView"
+                    android:text="Address"
+
+                    />
+
+                <TextView
+                    android:id="@+id/settings_addressTextView"
+                    style="@style/profileDetailsMiniText"
+                    android:layout_toRightOf="@id/addressImageView"
+
+                    android:text="Avenue 2nd Street NW SY." />
+
+            </RelativeLayout>
+
+            <View style="@style/profileDetailsView"
+
+                />
+
+
+            <View style="@style/profileDetailsView"
+
+                />
+
+            <RelativeLayout
+                android:id="@+id/account_mobile_row"
+                style="@style/profileDetailsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:id="@+id/mobileImageView"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:src="@drawable/ic_mobile" />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_toRightOf="@id/mobileImageView"
+                    android:text="Mobile" />
+
+                <TextView
+                    android:id="@+id/settings_phoneTextView"
+                    style="@style/profileDetailsMiniText"
+                    android:layout_toRightOf="@id/mobileImageView"
+                    android:text="+91-8129999999" />
+
+            </RelativeLayout>
+            <View style="@style/profileDetailsView"
+
+                />
+
+            <View style="@style/profileDetailsView"
+
+                />
+
+            <RelativeLayout
+
+                android:id="@+id/setting_prof_row"
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                >
+
+
+                <ImageView
+                    android:id="@+id/profImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/ic_dob"
+
+                    />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_toRightOf="@+id/profImageView"
+                    android:text="Professional"
+
+                    />
+
+                <TextView
+                    android:id="@+id/settings_profTextView"
+                    style="@style/profileDetailsMiniText"
+                    android:layout_above="@+id/jobSpinner"
+
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginBottom="60dp"
+                    android:layout_toRightOf="@+id/profImageView"
+                    android:text="teacher" />
+
+                <Spinner
+                    android:id="@+id/jobSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="50dp"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <View style="@style/profileDetailsView"
+
+                />
+            <RelativeLayout
+                android:id="@+id/settings_account_delete_row"
+
+                style="@style/profileDetailsLayout">
+
+                <ImageView
+                    android:id="@+id/deleteImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/icons_delete"
+
+                    />
+
+                <TextView
+                    style="@style/profileDetailsTextMain"
+                    android:layout_toRightOf="@id/deleteImageView"
+                    android:text="Account Delete"
+
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                >
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/icon_bill"
+                    android:layout_gravity="center">
+
+                </ImageView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/textView_bill_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Water Bill"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView_bill_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="10.10.2021"
+                    android:gravity="center"
+                    android:layout_weight="1">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/textView_bill_amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="150tl"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:textColor="@color/genel"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

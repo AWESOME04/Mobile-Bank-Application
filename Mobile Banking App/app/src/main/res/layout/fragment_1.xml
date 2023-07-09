@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/layout_user_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/genel"
+
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/icon_bank_whiteback">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_date_main"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATE"
+                android:layout_gravity="center"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+
+            <TextView
+                android:id="@+id/text_view_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HELLO, METEHAN."
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_dolar"
+                android:layout_gravity="center"></ImageView>
+
+            <TextView
+                android:id="@+id/text_view_total_money"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234,321"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_functions_main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/layout_user_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="horizontal"
+        android:background="@drawable/user1_corner_rounded"
+        android:gravity=""
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout_send_money"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/icon_money_transfer"
+
+
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEND"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout_request_money"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/icon_request"
+
+
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REQUEST"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout_history"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <ImageView
+
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:background="@drawable/icon_history"
+
+
+                ></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HISTORY"
+                android:textColor="@color/white"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/layout_functions_main_screen"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="@drawable/frame"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text_view_portfolio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BANK ACCOUNTS"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"></TextView>
+
+
+                <ImageView
+                    android:id="@+id/image_view_add_bank_account"
+
+
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/icon_plus"></ImageView>
+
+
+            </LinearLayout>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_bank_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="167dp"
+                tools:layout_editor_absoluteY="213dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:background="@drawable/frame"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+
+                    android:layout_weight="1.0"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/text_view_credit_cards"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CREDIT CARDS"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"></TextView>
+
+
+                <ImageView
+                    android:id="@+id/image_view_add_credit_card"
+
+
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/icon_plus"></ImageView>
+
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_credit_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="167dp"
+                tools:layout_editor_absoluteY="213dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

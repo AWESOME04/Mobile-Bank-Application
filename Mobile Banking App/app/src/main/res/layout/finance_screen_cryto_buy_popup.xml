@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/settings_nameTextView"
+        android:layout_width="54dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="4dp"
+        android:text="Name :"
+        app:layout_constraintEnd_toStartOf="@+id/CrytoNameTextView"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/CrytoNameTextView"
+        android:layout_width="142dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView99"
+        android:layout_width="56dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="20dp"
+        android:text="Value : "
+
+        app:layout_constraintEnd_toStartOf="@+id/CryptovalueTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settings_nameTextView" />
+
+    <TextView
+        android:id="@+id/CryptovalueTextView"
+        android:layout_width="143dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CrytoNameTextView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="171dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:hint="Enter money amount"
+        android:text="How much do you want?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CryptovalueTextView" />
+
+    <EditText
+        android:id="@+id/CyrptoBuyAmountEditText"
+        android:layout_width="205dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/CrytoSymbolTextView"
+        android:layout_width="57dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="9dp"
+        android:text="BTC : "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/CryptoAmountTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CyrptoBuyAmountEditText" />
+
+    <TextView
+        android:id="@+id/CryptoAmountTextView"
+        android:layout_width="157dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="9dp"
+        android:text="0.00000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CyrptoBuyAmountEditText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

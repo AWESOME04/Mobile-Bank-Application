@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@drawable/icon_bank" />
+
+    <item
+        android:id="@+id/menu2"
+        android:icon="@drawable/icon_pay" />
+
+    <item
+        android:id="@+id/menu3"
+        android:icon="@drawable/icon_drawer_bitcoin" />
+
+    <item
+        android:id="@+id/menu4"
+        android:icon="@drawable/icon_bill" />
+
+    <item
+        android:id="@+id/menu5"
+        android:icon="@drawable/icon_settings" />
+</menu>

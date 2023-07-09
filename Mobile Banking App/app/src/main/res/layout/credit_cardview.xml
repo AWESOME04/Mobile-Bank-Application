@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/icon_pay"
+                        android:layout_gravity="center">
+
+                    </ImageView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="4">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="Installment:"
+                            android:textStyle="bold"
+                            android:layout_weight="2"
+                            android:gravity="center">
+
+                        </TextView>
+                        <TextView
+                            android:id="@+id/textView_installment"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="20 months"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_weight="2">
+
+                        </TextView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="2">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="Interest Rate:"
+                            android:gravity="center"
+                            android:textStyle="bold"></TextView>
+
+                        <TextView
+                            android:id="@+id/textView_interest_rate"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text="%5"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:textStyle="bold">
+
+                        </TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView_credit_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="150tl"
+                        android:textStyle="bold"
+                        android:textSize="20dp"
+                        android:gravity="center"
+                        android:textColor="@color/genel"
+                        >
+
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:id="@+id/buttonCreditPay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="PAY"
+                    android:clickable="false"
+                    android:gravity="center">
+
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
