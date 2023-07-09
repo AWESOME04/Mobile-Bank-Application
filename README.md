@@ -72,7 +72,7 @@ To run the mobile banking application locally, follow these steps:
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/your-username/mobile-banking-app.git
+   git clone https://github.com/your-username/Mobile-Bank-Application.git
    ```
 
 2. Open the project in Android Studio.
@@ -104,93 +104,8 @@ Contributions to the mobile banking application are welcome! If you would like t
 ## License
 This mobile banking application is open-source and is licensed under the [MIT License](LICENSE)
 
-## Collaborators
-
-      Opoku Boakye-10947727
-      Elisha-10940920
-      Paul-10960583
-      Nathaniel-10970773
-      Presely-10966026
-      Gilbert-10978730
-      Phina--10961638
-      Bertram-10979761
-      Gorden----
-
-## Roles of the Collaborators
-
-1. Opoku Boakye-10947727
-   - Role: Project Manager
-   - Responsibilities:
-     - Overall project coordination and management.
-     - Task delegation and tracking.
-     - Ensuring project milestones and deadlines are met.
-     - Communication with team members and stakeholders.
-
-2. Elisha-10940920
-   - Role: Lead Android Developer
-   - Responsibilities:
-     - Designing and implementing the Android application architecture.
-     - Developing core features and functionality.
-     - Collaborating with other developers to integrate APIs and databases.
-     - Ensuring code quality and adherence to best practices.
-
-3. Paul-10960583
-   - Role: Backend Developer
-   - Responsibilities:
-     - Designing and developing the server-side APIs and database.
-     - Implementing security measures for data storage and communication.
-     - Integrating payment gateways and external services.
-     - Collaborating with the frontend team for data exchange.
-
-4. Nathaniel-10970773
-   - Role: UI/UX Designer
-   - Responsibilities:
-     - Designing the user interface and user experience of the mobile application.
-     - Creating wireframes, prototypes, and visual designs.
-     - Collaborating with the frontend developers to ensure UI implementation matches the design.
-     - Conducting user research and testing to gather feedback for iterative design improvements.
-
-5. Presely-10966026
-   - Role: Frontend Developer
-   - Responsibilities:
-     - Implementing UI layouts and views based on the design specifications.
-     - Handling user interactions and input validation.
-     - Collaborating with backend developers for data exchange and integration.
-     - Ensuring responsiveness and compatibility across different devices and screen sizes.
-
-6. Gilbert-10978730
-   - Role: Database Administrator
-   - Responsibilities:
-     - Designing and setting up the database schema.
-     - Managing and optimizing database performance.
-     - Implementing data backup and recovery procedures.
-     - Ensuring data integrity and security.
-
-7. Phina--10961638
-   - Role: Quality Assurance (QA) Tester
-   - Responsibilities:
-     - Creating and executing test cases to ensure application functionality and reliability.
-     - Identifying and reporting bugs, issues, and usability concerns.
-     - Collaborating with developers to resolve and verify bug fixes.
-     - Conducting regression testing and performance testing.
-
-8. Bertram-10979761
-   - Role: Documentation Specialist
-   - Responsibilities:
-     - Creating and maintaining project documentation, including requirements, design documents, and user guides.
-     - Writing and updating the project's README file and documentation on version control platforms.
-     - Assisting with creating API documentation and technical documentation for developers.
-     - Ensuring documentation is accurate, up-to-date, and accessible to the team and stakeholders.
-
-9. Gorden----
-   - Role: Deployment and DevOps Engineer
-   - Responsibilities:
-     - Setting up the deployment infrastructure for the mobile banking application.
-     - Configuring continuous integration and delivery pipelines.
-     - Managing and automating the deployment process.
-     - Monitoring application performance and scalability.
 
 ## Contact
-For any inquiries or feedback, please contact the development team at kaopoku-boakye@st.ug.edu.gh
+For any inquiries or feedback, please contact the development team at evansachie01@gmail.com
 
 Feel free to update and customize this README file according to your specific project requirements and add relevant sections such as architecture, installation instructions, screenshots, etc.
