@@ -1,7 +1,4 @@
-# DCIT 202 ANDROID
-
 ![1000_F_568833577_k5luNNetlu3hhAaTLmjNXjAsszNq8k8u](https://github.com/Opoku19/Mobile-Banking-Application/assets/103103431/06e71cb3-c339-4ffb-9575-21064133b327)
-
 
 
 ## Overview
